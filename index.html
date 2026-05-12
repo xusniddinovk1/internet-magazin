@@ -396,6 +396,96 @@
         line-height: 1.4;
       }
 
+      .products-section {
+        margin: 32px 0 24px;
+      }
+
+      .products-section .section-title {
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: var(--gold);
+        margin-bottom: 18px;
+        text-align: center;
+      }
+
+      .products-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .product-card {
+        background: var(--bg2);
+        border: 1px solid rgba(201, 168, 76, 0.12);
+        border-radius: var(--radius);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .product-card img {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        display: block;
+      }
+
+      .product-card-body {
+        padding: 14px 16px 18px;
+        flex: 1;
+      }
+
+      .product-card-title {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+
+      .product-card-text {
+        font-size: 13px;
+        color: var(--text-muted);
+        line-height: 1.6;
+        margin-bottom: 12px;
+      }
+
+      .product-card-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 0 16px 16px;
+      }
+
+      .product-price-tag {
+        font-size: 13px;
+        font-weight: 600;
+        color: var(--text);
+      }
+
+      .view-btn {
+        background: var(--gold);
+        color: #0d0d0d;
+        border: none;
+        border-radius: 999px;
+        padding: 8px 12px;
+        font-size: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: transform 0.2s;
+      }
+
+      .view-btn:hover {
+        transform: translateY(-1px);
+      }
+
+      @media (max-width: 640px) {
+        .products-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
       /* FOOTER */
       footer {
         text-align: center;
@@ -454,6 +544,11 @@
           berish kafolatlangan.
         </p>
       </header>
+
+      <section class="products-section" id="productsSection">
+        <div class="section-title">Tanlangan mahsulotlar</div>
+        <div class="products-grid" id="productsGrid"></div>
+      </section>
 
       <!-- FEATURES -->
       <div class="features">
@@ -624,6 +719,36 @@
       document.addEventListener("keydown", (e) => {
         if (e.key === "Enter") sendOrder();
       });
+
+      async function loadProducts() {
+        try {
+          const res = await fetch("product.json");
+          const data = await res.json();
+          const grid = document.getElementById("productsGrid");
+
+          Object.entries(data).forEach(([id, product]) => {
+            const card = document.createElement("article");
+            card.className = "product-card";
+            card.innerHTML = `
+              <img src="${product.image}" alt="${product.name}" />
+              <div class="product-card-body">
+                <div class="product-card-title">${product.name}</div>
+                <div class="product-card-text">${product.short}</div>
+              </div>
+              <div class="product-card-footer">
+                <div class="product-price-tag">${product.price}</div>
+                <a class="view-btn" href="product.html?id=${encodeURIComponent(id)}">Buyurtma</a>
+              </div>
+            `;
+            grid.appendChild(card);
+          });
+        } catch (err) {
+          document.getElementById("productsSection").style.display = "none";
+          console.error("Product list load failed:", err);
+        }
+      }
+
+      loadProducts();
     </script>
   </body>
 </html>
