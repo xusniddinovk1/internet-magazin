@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buyurtma berish</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        --gold: #c9a84c;
+        --gold-light: #f0d98a;
+        --gold-dark: #8a6a20;
+        --bg: #0d0d0d;
+        --bg2: #161616;
+        --bg3: #1e1e1e;
+        --text: #f5f0e8;
+        --text-muted: #9a9080;
+        --border: rgba(201, 168, 76, 0.2);
+        --radius: 12px;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        font-family: "DM Sans", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+
+      /* Background texture */
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        background:
+          radial-gradient(
+            ellipse 80% 50% at 20% -10%,
+            rgba(201, 168, 76, 0.08) 0%,
+            transparent 60%
+          ),
+          radial-gradient(
+            ellipse 60% 40% at 80% 110%,
+            rgba(201, 168, 76, 0.05) 0%,
+            transparent 60%
+          );
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      .container {
+        max-width: 520px;
+        margin: 0 auto;
+        padding: 0 20px;
+        position: relative;
+        z-index: 1;
+      }
+
+      /* HEADER */
+      header {
+        text-align: center;
+        padding: 64px 20px 48px;
+        position: relative;
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: rgba(201, 168, 76, 0.1);
+        border: 1px solid var(--border);
+        color: var(--gold);
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 6px 16px;
+        border-radius: 100px;
+        margin-bottom: 24px;
+      }
+
+      .badge::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        background: var(--gold);
+        border-radius: 50%;
+        animation: pulse 2s ease-in-out infinite;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 0.5;
+          transform: scale(0.8);
+        }
+      }
+
+      h1 {
+        font-family: "Playfair Display", serif;
+        font-size: clamp(36px, 8vw, 52px);
+        font-weight: 700;
+        line-height: 1.15;
+        margin-bottom: 16px;
+        color: var(--text);
+      }
+
+      h1 span {
+        color: var(--gold);
+        font-style: italic;
+      }
+
+      .subtitle {
+        font-size: 15px;
+        color: var(--text-muted);
+        line-height: 1.7;
+        max-width: 380px;
+        margin: 0 auto;
+      }
+
+      /* DIVIDER */
+      .divider {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin: 40px 0;
+      }
+      .divider::before,
+      .divider::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: var(--border);
+      }
+      .divider-icon {
+        color: var(--gold);
+        font-size: 18px;
+        opacity: 0.7;
+      }
+
+      /* FORM CARD */
+      .form-card {
+        background: var(--bg2);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        padding: 40px 36px;
+        margin-bottom: 32px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .form-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          var(--gold),
+          transparent
+        );
+      }
+
+      .form-title {
+        font-family: "Playfair Display", serif;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 28px;
+        color: var(--text);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .form-title svg {
+        width: 20px;
+        height: 20px;
+        fill: var(--gold);
+        opacity: 0.8;
+      }
+
+      .field {
+        margin-bottom: 20px;
+      }
+
+      label {
+        display: block;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        margin-bottom: 8px;
+      }
+
+      input {
+        width: 100%;
+        background: var(--bg3);
+        border: 1px solid rgba(201, 168, 76, 0.15);
+        border-radius: var(--radius);
+        padding: 14px 18px;
+        font-family: "DM Sans", sans-serif;
+        font-size: 15px;
+        color: var(--text);
+        outline: none;
+        transition:
+          border-color 0.25s,
+          box-shadow 0.25s;
+        -webkit-appearance: none;
+      }
+
+      input::placeholder {
+        color: rgba(154, 144, 128, 0.5);
+      }
+
+      input:focus {
+        border-color: var(--gold);
+        box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.1);
+      }
+
+      input:hover:not(:focus) {
+        border-color: rgba(201, 168, 76, 0.3);
+      }
+
+      /* SUBMIT BUTTON */
+      .btn {
+        width: 100%;
+        background: var(--gold);
+        border: none;
+        border-radius: var(--radius);
+        padding: 16px;
+        font-family: "DM Sans", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        color: #0d0d0d;
+        cursor: pointer;
+        margin-top: 8px;
+        transition: all 0.2s;
+        letter-spacing: 0.3px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .btn::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(255, 255, 255, 0);
+        transition: background 0.2s;
+      }
+
+      .btn:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 8px 24px rgba(201, 168, 76, 0.3);
+      }
+
+      .btn:hover::after {
+        background: rgba(255, 255, 255, 0.08);
+      }
+
+      .btn:active {
+        transform: translateY(0);
+        box-shadow: none;
+      }
+
+      .btn:disabled {
+        opacity: 0.6;
+        cursor: not-allowed;
+        transform: none;
+        box-shadow: none;
+      }
+
+      .btn-text {
+        transition: opacity 0.2s;
+      }
+      .btn-loader {
+        display: none;
+      }
+
+      .btn.loading .btn-text {
+        display: none;
+      }
+      .btn.loading .btn-loader {
+        display: inline-block;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .spinner {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        border: 2px solid rgba(13, 13, 13, 0.3);
+        border-top-color: #0d0d0d;
+        border-radius: 50%;
+        animation: spin 0.7s linear infinite;
+        vertical-align: middle;
+      }
+
+      /* SUCCESS STATE */
+      .success-state {
+        display: none;
+        text-align: center;
+        padding: 20px 0 8px;
+      }
+
+      .success-icon {
+        width: 64px;
+        height: 64px;
+        background: rgba(201, 168, 76, 0.1);
+        border: 1px solid rgba(201, 168, 76, 0.3);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 20px;
+        font-size: 28px;
+      }
+
+      .success-title {
+        font-family: "Playfair Display", serif;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        color: var(--gold);
+      }
+
+      .success-text {
+        font-size: 14px;
+        color: var(--text-muted);
+        line-height: 1.6;
+      }
+
+      /* ERROR */
+      .error-msg {
+        display: none;
+        background: rgba(220, 60, 60, 0.08);
+        border: 1px solid rgba(220, 60, 60, 0.2);
+        border-radius: 8px;
+        color: #e07070;
+        font-size: 13px;
+        padding: 10px 14px;
+        margin-top: 12px;
+        text-align: center;
+      }
+
+      /* FEATURES */
+      .features {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
+        margin-bottom: 48px;
+      }
+
+      .feature {
+        background: var(--bg2);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 16px 12px;
+        text-align: center;
+      }
+
+      .feature-icon {
+        font-size: 22px;
+        margin-bottom: 8px;
+      }
+
+      .feature-label {
+        font-size: 11px;
+        color: var(--text-muted);
+        line-height: 1.4;
+      }
+
+      /* FOOTER */
+      footer {
+        text-align: center;
+        padding: 0 20px 48px;
+        font-size: 12px;
+        color: rgba(154, 144, 128, 0.4);
+      }
+
+      /* ANIMATION */
+      @keyframes fadeUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      header,
+      .features,
+      .form-card,
+      footer {
+        animation: fadeUp 0.6s ease both;
+      }
+
+      .features {
+        animation-delay: 0.1s;
+      }
+      .form-card {
+        animation-delay: 0.2s;
+      }
+      footer {
+        animation-delay: 0.3s;
+      }
+
+      @media (max-width: 480px) {
+        .form-card {
+          padding: 28px 20px;
+        }
+        .features {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+      <header>
+        <div class="badge">Rasmiy do'kon</div>
+        <h1>Sifatli mahsulot<br /><span>sizning uchun</span></h1>
+        <p class="subtitle">
+          Buyurtma bering va biz siz bilan tez orada bog'lanamiz. Yetkazib
+          berish kafolatlangan.
+        </p>
+      </header>
+
+      <!-- FEATURES -->
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">🚀</div>
+          <div class="feature-label">Tez yetkazib berish</div>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🛡️</div>
+          <div class="feature-label">Kafolat bor</div>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">💬</div>
+          <div class="feature-label">24/7 qo'llab-quvvatlash</div>
+        </div>
+      </div>
+
+      <!-- FORM -->
+      <div class="form-card" id="formCard">
+        <!-- FORM CONTENT -->
+        <div id="formContent">
+          <div class="form-title">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"
+              />
+            </svg>
+            Buyurtma shakli
+          </div>
+
+          <div class="field">
+            <label for="name">Ism</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Ismingizni kiriting"
+              autocomplete="given-name"
+            />
+          </div>
+
+          <div class="field">
+            <label for="surname">Familiya</label>
+            <input
+              type="text"
+              id="surname"
+              placeholder="Familiyangizni kiriting"
+              autocomplete="family-name"
+            />
+          </div>
+
+          <div class="field">
+            <label for="phone">Telefon raqam</label>
+            <input
+              type="tel"
+              id="phone"
+              placeholder="+998 90 123 45 67"
+              autocomplete="tel"
+            />
+          </div>
+
+          <button class="btn" id="submitBtn" onclick="sendOrder()">
+            <span class="btn-text">Buyurtma berish →</span>
+            <span class="btn-loader"><span class="spinner"></span></span>
+          </button>
+
+          <div class="error-msg" id="errorMsg">
+            Xatolik yuz berdi. Iltimos qaytadan urinib ko'ring.
+          </div>
+        </div>
+
+        <!-- SUCCESS STATE -->
+        <div class="success-state" id="successState">
+          <div class="success-icon">✓</div>
+          <div class="success-title">Buyurtma qabul qilindi!</div>
+          <p class="success-text">
+            Rahmat! Tez orada siz bilan bog'lanamiz.<br />Buyurtmangiz
+            adminimizga yuborildi.
+          </p>
+        </div>
+      </div>
+
+      <!-- DIVIDER -->
+      <div class="divider">
+        <span class="divider-icon">◆</span>
+      </div>
+
+      <footer>© 2025 · Barcha huquqlar himoyalangan</footer>
+    </div>
+
+    <script>
+      const BOT_TOKEN = "8828690268:AAGwq2Hs4eyWG50X2JgG0XYf4eb8nec1Mng";
+      const CHAT_ID = "6108249367";
+
+      function validatePhone(p) {
+        return /^[\+\d\s\-\(\)]{9,16}$/.test(p.trim());
+      }
+
+      async function sendOrder() {
+        const name = document.getElementById("name").value.trim();
+        const surname = document.getElementById("surname").value.trim();
+        const phone = document.getElementById("phone").value.trim();
+        const btn = document.getElementById("submitBtn");
+        const errDiv = document.getElementById("errorMsg");
+
+        errDiv.style.display = "none";
+
+        if (!name || !surname || !phone) {
+          errDiv.textContent = "Iltimos, barcha maydonlarni to'ldiring.";
+          errDiv.style.display = "block";
+          return;
+        }
+
+        if (!validatePhone(phone)) {
+          errDiv.textContent = "Iltimos, to'g'ri telefon raqam kiriting.";
+          errDiv.style.display = "block";
+          return;
+        }
+
+        btn.classList.add("loading");
+        btn.disabled = true;
+
+        const now = new Date();
+        const time = now.toLocaleString("uz-UZ", {
+          timeZone: "Asia/Tashkent",
+          dateStyle: "short",
+          timeStyle: "short",
+        });
+
+        const message = `🛍 *Yangi buyurtma!*
+
+👤 *Ism:* ${name}
+👤 *Familiya:* ${surname}
+📞 *Telefon:* ${phone}
+🕐 *Vaqt:* ${time}`;
+
+        try {
+          const res = await fetch(
+            `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`,
+            {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                chat_id: CHAT_ID,
+                text: message,
+                parse_mode: "Markdown",
+              }),
+            },
+          );
+
+          const data = await res.json();
+
+          if (data.ok) {
+            document.getElementById("formContent").style.display = "none";
+            document.getElementById("successState").style.display = "block";
+          } else {
+            throw new Error(data.description || "Telegram xatoligi");
+          }
+        } catch (err) {
+          console.error(err);
+          errDiv.textContent =
+            "Xatolik yuz berdi. Iltimos qaytadan urinib ko'ring.";
+          errDiv.style.display = "block";
+          btn.classList.remove("loading");
+          btn.disabled = false;
+        }
+      }
+
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") sendOrder();
+      });
+    </script>
+  </body>
+</html>
