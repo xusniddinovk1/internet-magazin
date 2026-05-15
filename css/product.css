@@ -1,0 +1,433 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg: #f7f5f0;
+  --bg2: #ffffff;
+  --bg3: #f0ede6;
+  --text: #1a1814;
+  --text-muted: #7a7568;
+  --accent: #2c2c2c;
+  --gold: #b8860b;
+  --gold-light: #f5edd0;
+  --border: #e2ddd4;
+  --radius: 12px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+
+/* NOT FOUND */
+#notFound {
+  display: none;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+  padding: 40px;
+}
+#notFound h2 {
+  font-family: "Instrument Serif", serif;
+  font-size: 32px;
+  color: var(--text);
+}
+#notFound p {
+  color: var(--text-muted);
+  font-size: 15px;
+}
+
+/* MAIN */
+#mainContent {
+  display: none;
+}
+
+/* HERO IMAGE */
+.hero {
+  width: 100%;
+  height: clamp(280px, 45vw, 480px);
+  position: relative;
+  overflow: hidden;
+  background: var(--bg3);
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgba(247, 245, 240, 0.9) 100%
+  );
+}
+
+/* BACK BUTTON */
+.back-btn {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 8px 16px 8px 12px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 13px;
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  backdrop-filter: blur(8px);
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.back-btn:hover {
+  background: white;
+}
+.back-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+/* CONTENT */
+.content {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 0 20px 60px;
+}
+
+/* PRODUCT INFO */
+.product-info {
+  padding: 28px 0 32px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 32px;
+  animation: fadeUp 0.5s ease both;
+}
+
+.category-tag {
+  display: inline-block;
+  background: var(--gold-light);
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 100px;
+  margin-bottom: 14px;
+}
+
+.product-name {
+  font-family: "Instrument Serif", serif;
+  font-size: clamp(30px, 7vw, 42px);
+  font-weight: 400;
+  line-height: 1.15;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+
+.product-short {
+  font-size: 15px;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.product-price {
+  font-size: 26px;
+  font-weight: 500;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.price-label {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* DESCRIPTION */
+.section {
+  margin-bottom: 28px;
+  animation: fadeUp 0.5s ease 0.1s both;
+}
+
+.section-title {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 1.75;
+  color: var(--text);
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.feature-tag {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 6px 14px;
+  font-size: 13px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.feature-tag::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  background: var(--gold);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* DIVIDER */
+.form-divider {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 36px 0 28px;
+}
+.form-divider::before,
+.form-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+.form-divider span {
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+/* FORM */
+.form-wrap {
+  animation: fadeUp 0.5s ease 0.2s both;
+}
+
+.form-header {
+  margin-bottom: 24px;
+}
+
+.form-header h3 {
+  font-family: "Instrument Serif", serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.form-header p {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 7px;
+}
+
+input {
+  width: 100%;
+  background: var(--bg2);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 13px 16px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  color: var(--text);
+  outline: none;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+  -webkit-appearance: none;
+}
+
+input::placeholder {
+  color: #c0bab0;
+}
+
+input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(44, 44, 44, 0.06);
+}
+
+.btn {
+  width: 100%;
+  background: var(--accent);
+  border: none;
+  border-radius: var(--radius);
+  padding: 15px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn:hover {
+  background: #111;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+.btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.btn svg {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.2s;
+}
+.btn:hover svg {
+  transform: translateX(3px);
+}
+
+.spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error-msg {
+  display: none;
+  background: #fef0f0;
+  border: 1px solid #fccaca;
+  border-radius: 8px;
+  color: #c53030;
+  font-size: 13px;
+  padding: 10px 14px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+/* SUCCESS */
+.success-state {
+  display: none;
+  text-align: center;
+  padding: 32px 20px;
+  background: var(--bg2);
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
+}
+
+.success-check {
+  width: 60px;
+  height: 60px;
+  background: #f0faf4;
+  border: 1.5px solid #86efac;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+  font-size: 26px;
+}
+
+.success-title {
+  font-family: "Instrument Serif", serif;
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+
+.success-text {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* ANIMATIONS */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero {
+  animation: fadeUp 0.4s ease both;
+}
+
+@media (max-width: 480px) {
+  .content {
+    padding: 0 16px 48px;
+  }
+}
