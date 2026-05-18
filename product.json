@@ -1,18 +1,13 @@
 {
   "qwerrt": {
-    "name": "Premium Ruchka",
-    "short": "Yozish uchun ideal hamroh",
-    "description": "Yumshoq siyoh oqimi va ergonomik dizayni bilan bu ruchka har kuni yozishni zavqga aylantiradi. Metal korpus, uzun xizmat muddati.",
+    "name": "Qosh qalam",
+    "short": "Qosh qalami erkaklar va ayollar uchun",
+    "description": "Biz sizga SUAKE Qosh Konturlash Lineridan suv o'tkazmaydigan kosmetik qalam laynerini taqdim etamiz, u ko'z va qosh uchun mukammal bo'yanish yaratishda ajralmas yordamchiga aylanadi.Ushbu tatuirovka layneri mikroblading effektiga ega bo'lib, sochlar orasidagi bo'shliqlarni to'ldirish va qoshlar shaklini tuzatish imkonini beradi. Ushbu qalamning eng muhim xususiyatlaridan biri uning suvga chidamliligi.Yomg'ir yog'ganda ham, suzishda ham u bo'g'lanmaydi va parchalanmaydi. Buning yordamida bo'yanishingiz kun davomida benuqson bo'lib qoladi. Qalamli qalam yumshoq uch qatorli aplikatorga ega, bu sizga mahsulotni qulaylik va aniqlik bilan qo'llash imkonini beradi. ",
     "price": "45 000 so'm",
-    "image": "https://images.unsplash.com/photo-1583485088034-697b5bc54ccd?w=800&q=80",
-    "features": ["Metal korpus", "Yumshoq yozish", "Uzoq xizmat muddati"]
-  },
-  "abc123": {
-    "name": "Daftar A5",
-    "short": "Fikrlaringiz uchun joy",
-    "description": "Qalin qog'oz, chiroyli muqova. Har kuni yozish, eskiz chizish yoki rejalar tuzish uchun mukammal daftar.",
-    "price": "35 000 so'm",
-    "image": "https://images.unsplash.com/photo-1531346680769-a1d79b57de5e?w=800&q=80",
-    "features": ["A5 format", "160 varaq", "Qalin qog'oz"]
+    "image": "./images/image.png",
+    "features": [
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
   }
 }
