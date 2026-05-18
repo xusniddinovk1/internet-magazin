@@ -61,14 +61,14 @@ function showNotFound() {
 
 async function sendOrder() {
   const fname = document.getElementById("fname").value.trim();
-  const lname = document.getElementById("lname").value.trim();
+  // const lname = document.getElementById("lname").value.trim();
   const phone = document.getElementById("phone").value.trim();
   const btn = document.getElementById("submitBtn");
   const err = document.getElementById("errorMsg");
 
   err.style.display = "none";
 
-  if (!fname || !lname || !phone) {
+  if (!fname || !phone) {
     err.textContent = "Iltimos, barcha maydonlarni to'ldiring.";
     err.style.display = "block";
     return;
@@ -100,7 +100,6 @@ async function sendOrder() {
 💰 *Narxi:* ${currentProduct.price}
 
 👤 *Ism:* ${fname}
-👤 *Familiya:* ${lname}
 📞 *Telefon:* ${phone}
 🕐 *Vaqt:* ${time}
 
@@ -112,7 +111,6 @@ async function sendOrder() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         name: fname,
-        surname: lname,
         phone: phone,
         product: currentProduct.name,
         price: currentProduct.price,
