@@ -1,13 +1,28 @@
 {
-  "qwerrt": {
+  "qosh-qalam": {
     "name": "Qosh qalam 🖊️",
     "short": "Qosh qalami erkak va ayollar uchun ✅",
     "description": "🖊️ Erkak va ayollarimiz uchun ajoyib qosh qalam",
     "price": "45 000 so'm 💰",
-    "image": "./images/image.png",
+    "image": "./images/image1.png",
     "features": [
       "💧 suvga chidamli",
       "🖤 Rangi o’chib ketmaydi",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "Mahsulot soni cheklangan 📲",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
+  },
+  "mahsulot": {
+    "name": "AIR SOFT GUN 🔫",
+    "short": "Air Soft Gun Toliq metaldan ishlangan o’yinchoq pistolet",
+    "description": "Erkaklar uchun yoshlikni eslatuvchi ajoyib o’yinchoq 💣",
+    "price": "139.000 so’m 💰",
+    "image": "./images/image1.png",
+    "features": [
+      "100 dona o’q sovg’a 🎁",
+      "Haqiqiydan farq qilmaydi ✅",
+      "Haqiqiy emotsiya beradi 💣",
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "Mahsulot soni cheklangan 📲",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
