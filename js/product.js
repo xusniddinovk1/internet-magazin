@@ -122,7 +122,7 @@ async function sendOrder() {
 
     if (data.ok) {
       // Pixel - Purchase event
-      fbq("track", "Purchase", {
+      fbq("track", "Lead", {
         value: 0,
         currency: "UZS",
         content_name: currentProduct.name,
