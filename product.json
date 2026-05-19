@@ -2,11 +2,14 @@
   "qwerrt": {
     "name": "Qosh qalam",
     "short": "Qosh qalami erkaklar va ayollar uchun",
-    "description": "Biz sizga SUAKE Qosh Konturlash Lineridan suv o'tkazmaydigan kosmetik qalam laynerini taqdim etamiz, u ko'z va qosh uchun mukammal bo'yanish yaratishda ajralmas yordamchiga aylanadi.Ushbu tatuirovka layneri mikroblading effektiga ega bo'lib, sochlar orasidagi bo'shliqlarni to'ldirish va qoshlar shaklini tuzatish imkonini beradi. Ushbu qalamning eng muhim xususiyatlaridan biri uning suvga chidamliligi.Yomg'ir yog'ganda ham, suzishda ham u bo'g'lanmaydi va parchalanmaydi. Buning yordamida bo'yanishingiz kun davomida benuqson bo'lib qoladi. Qalamli qalam yumshoq uch qatorli aplikatorga ega, bu sizga mahsulotni qulaylik va aniqlik bilan qo'llash imkonini beradi. ",
+    "description": "🖊️ Erkak va ayollarimiz uchun ajoyib qosh qalam",
     "price": "45 000 so'm",
     "image": "./images/image.png",
     "features": [
+      "💧 suvga chidamli",
+      "🖤 Rangi o’chib ketmaydi",
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "Mahsulot soni cheklangan 📲",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
   }
