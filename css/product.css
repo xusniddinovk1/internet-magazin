@@ -128,7 +128,6 @@ body {
   border-bottom: 1px solid var(--border);
   margin-bottom: 32px;
   animation: fadeUp 0.5s ease both;
-  margin-top: 30px;
 }
 
 .category-tag {
@@ -190,6 +189,7 @@ body {
   text-transform: uppercase;
   color: var(--text-muted);
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 .description {
