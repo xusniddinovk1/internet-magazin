@@ -64,5 +64,17 @@
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
+  },
+  "mahsulot4": {
+    "name": "Magic Brush",
+    "short": "Idish tozalaydigan shutka elektron Tozalashning 'sehrli' usuli topildi! 🎁 ",
+    "description": "Oddiy cho‘tkalar bilan vaqt yo‘qotishni bas qiling. ❌. Magic Brush bilan birga  ✅ Kafel kirlari 1 daqiqada yo‘qoladi. ✅ Gaz plitasi yangidek bo‘ladi. ✅ Vannadagi dog‘lar endi muammo emas. To‘plamda: Cho‘tka, 5 xil nasadka va USB kabel. 🎁 ",
+    "price": "99.000 so’m 💰",
+    "image": "./images/image6.png",
+    "features": [
+      "Mahsulot soni cheklangan 📲",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
   }
 }
