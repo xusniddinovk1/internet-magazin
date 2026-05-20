@@ -41,5 +41,18 @@
       "Mahsulot soni cheklangan 📲",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
+  },
+  "mahsulot2": {
+    "name": "❄️Super Mini universal Konditsioner",
+    "short": "☀️ Yozning qaynoq haroratiga chiday olmayapsizmi ?  ",
+    "description": "- Mini Konditsioner sizga yordamga keladi! ❄️",
+    "price": "89.000 so’m 💰",
+    "image": "./images/image4.png",
+    "features": [
+      "✅ 100% kafolatga ega!",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "Mahsulot soni cheklangan 📲",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
   }
 }
