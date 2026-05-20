@@ -76,5 +76,19 @@
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
+  },
+  "mahsulot5": {
+    "name": "Hameleon ko'zoynak",
+    "short": "Hameleon ko'zoynak – uslub va qulaylik birlashuvi! 🔥",
+    "description": "Maybach ko‘zoynak! Har qanday obrazga mos tushadigan, yorug‘likka qarab tusini o‘zgartiradigan hameleon linzalar bilan jihozlangan.",
+    "price": "79.000 so’m 💰",
+    "image": "./images/image7.png",
+    "features": [
+      "Yuqori sifatli material ✅",
+      "Hashamatli dizayn ✅",
+      "Ko‘zlaringizni himoya qiladi ✅",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
   }
 }
