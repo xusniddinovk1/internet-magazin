@@ -18,11 +18,25 @@
     "short": "Air Soft Gun Toliq metaldan ishlangan o’yinchoq pistolet",
     "description": "Erkaklar uchun yoshlikni eslatuvchi ajoyib o’yinchoq 💣",
     "price": "139.000 so’m 💰",
-    "image": "./images/image.png",
+    "image": "./images/image2.png",
     "features": [
       "100 dona o’q sovg’a 🎁",
       "Haqiqiydan farq qilmaydi ✅",
       "Haqiqiy emotsiya beradi 💣",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "Mahsulot soni cheklangan 📲",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
+  },
+  "mahsulot1": {
+    "name": "Soch, soqol oʻstiruvchi yogʻ va mezoroller 🧔🏻",
+    "short": "🧔🏻Beard Growth • soch soqol oʻstiruvchi yogʻ va mezoroller 🤩",
+    "description": "🔰 Tabiy oziqlantiruvchi moddalar bilan toʻyingan boʻlib soch va soqol ildizini faollashtiradi",
+    "price": "67.000 so’m 💰",
+    "image": "./images/image3.png",
+    "features": [
+      "✅ 100% kafolatga ega!",
+      "🔆 Beard Growth bilan qalin va uzun soch soqolga ega boʻling",
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "Mahsulot soni cheklangan 📲",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
