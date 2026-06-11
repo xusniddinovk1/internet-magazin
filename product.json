@@ -49,6 +49,8 @@
     "description": "- Mini Konditsioner sizga yordamga keladi! ❄️",
     "price": "89.000 so’m 💰",
     "image": "./images/image4.png",
+    "stream": "10TySoIB",
+    "offer_id": 101,
     "features": [
       "✅ 100% kafolatga ega!",
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
@@ -85,6 +87,8 @@
     "description": "Maybach ko‘zoynak! Har qanday obrazga mos tushadigan, yorug‘likka qarab tusini o‘zgartiradigan hameleon linzalar bilan jihozlangan.",
     "price": "79.000 so’m 💰",
     "image": "./images/image7.png",
+    "stream": "jed0sKsv",
+    "offer_id": 29,
     "features": [
       "Yuqori sifatli material ✅",
       "Hashamatli dizayn ✅",
