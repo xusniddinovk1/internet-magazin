@@ -92,5 +92,74 @@
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
+  },
+  "mahsulot6": {
+    "name": "Showery Eco 💦",
+    "short": "Parraklarga ega dush, jonning rohati! 🩷",
+    "description": "🚿✨ Oddiy dushni unuting — endi har bir tomchi siz va oilangiz uchun g’amxo’rlik qiladi! 💙.💧 Showery Eco suv bosimini kuchaytirib, dushdan haqiqiy rohat olishingizga yordam beradi.",
+    "price": "69.000 so’m 💰",
+    "image": "./images/img123.jpg",
+    "stream": "Ir2TSfpr",
+    "offer_id": 38,
+    "features": [
+      "🛡️ Filtr tizimi suvdagi ayrim aralashmalarni kamaytirishga xizmat qiladi va yanada yoqimli foydalanish tajribasini taqdim etadi.",
+      "🎁 Bugungi aksiyani o’tkazib yubormang — chegirma sizni kutmoqda!",
+      "📲 Hoziroq buyurtma bering va dushingizni yangi darajaga olib chiqing!",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
+  },
+  "mahsulot7": {
+    "name": "Galaxy LED-chiroq",
+    "short": "Zamonaviy dizayn va aqlli texnologiyalar bir joyda!",
+    "description": "Galaxy LED-chiroq — bu nafaqat chiroq, balki soat, budilnik, simsiz quvvatlagich va qulay tungi yoritish manbai.",
+    "price": "99.000 so’m 💰",
+    "image": "./images/img124.jpg",
+    "stream": "tn05zCyl",
+    "offer_id": 73,
+    "features": [
+      "⏰ Soat va budilnik — vaqtni aniq nazorat qilish uchun",
+      "🔋 Simsiz quvvatlash — telefoningizni simsiz zaryadlang",
+      "💡 7 xil LED yorug‘lik rejimi — ish, dam olish yoki tungi rejim",
+      "🌙 Tungi chiroq — yumshoq va ko‘zni charchatmaydi",
+      "🔊 Bluetooth musiqa (modelga qarab) — muhitni yanada yoqimli qiladi",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
+  },
+  "mahsulot8": {
+    "name": "Gerbli LED LOGO",
+    "short": "Zamonaviy dizayn va aqlli texnologiyalar bir joyda!",
+    "description": "Mashina ishqibozlari uchun ajoyib yangi mahsulotimiz keldi — LED LOGO Gerbli",
+    "price": "67.000 so’m 💰",
+    "image": "./images/img125.jpg",
+    "stream": "fJ8BHiWp",
+    "offer_id": 99,
+    "features": [
+      "✅ Mashina eshiklariga o‘rnatiladi, maxsus sensor qurilmaga ega",
+      "✅ Eshik ochilganda yerga Gerb logosi tasvirini tushirib ko‘rsatadi",
+      "✅ Barcha turdagi mashinalarga mos keladi",
+      "✅ Hozirda Gerb logosi tushiradigan modeli mavjud",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
+  },
+  "mahsulot9": {
+    "name": "Meva sharbat chiqargich (Juicer) 🍊🍎",
+    "short": "Uyda sog‘lom va tabiiy sharbat tayyorlash endi juda oson!",
+    "description": "",
+    "price": "67.000 so’m 💰",
+    "image": "./images/img126.jpg",
+    "stream": "x0PelNyS",
+    "offer_id": 130,
+    "features": [
+      "✅ Mevalardan 100% tabiiy sharbat chiqarib beradi",
+      "✅ Apelsin, olma, sabzi va boshqa mevalar uchun mos",
+      "✅ Tez va qulay ishlaydi — vaqtni tejaydi",
+      "✅ Tozalash juda oson, qismlarga ajraladi",
+      "✅ Har kuni vitaminlarga boy ichimlik tayyorlash imkoniyati",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
   }
 }
