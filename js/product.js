@@ -115,6 +115,8 @@ async function sendOrder() {
         product: currentProduct.name,
         price: currentProduct.price,
         id: currentProduct.id,
+        stream: currentProduct.stream, 
+        offer_id: currentProduct.offer_id,
       }),
     });
 
