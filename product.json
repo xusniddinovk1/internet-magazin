@@ -187,5 +187,42 @@
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
+  },
+  "mahsulot11": {
+    "name": "Diskali soat",
+    "short": "",
+    "description": "",
+    "price": "99.000 so’m 💰",
+    "image": "./images/img128.jpg",
+    "stream": "j9UPHoyJ",
+    "offer_id": 20,
+    "features": [
+      "Batareyada ishlaydi 🔋",
+      "Tasma uzunligi 27 ⛓️",
+      "Erkaklar uchun 🙎‍♂️",
+      "Batareyaning ishlash muddati 12 oy 📅",
+      "Korpusning diametri 40 mm",
+      "Turi maftunkor, zamonaviy, hashamatli qopqoq, g'ildirak diskali soat 🎁",
+      "Tovarining kelib chiqishi: Xitoy",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
+  },
+  "mahsulot12": {
+    "name": "Feramon original atir",
+    "short": "10 ml feramon atiri — kichkina hajm, lekin katta ta’sir! ✨",
+    "description": "O‘zingizga ishonchni oshiradi, atrofdagilar e’tiborini bir zumda sizga qaratadi.",
+    "price": "69.000 so’m 💰",
+    "image": "./images/img129.jpg",
+    "stream": "n6c7sx4d",
+    "offer_id": 92,
+    "features": [
+      "💎 Har tomchi — joziba va ishonch",
+      "💎 Har lahza — kuchli taassurot",
+      "💎 Har joyda — siz markazdasiz",
+      "👉 Endi oddiy emas, o‘ziga tortuvchi bo‘ling! ✨",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
   }
 }
