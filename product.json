@@ -226,5 +226,24 @@
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
+  },
+  "mahsulot13": {
+    "name": "Althea 345 Relief Cream",
+    "short": "Althea 345 Relief Cream – Teringizga tabiiy parvarish!",
+    "description": "",
+    "price": "59.000 so’m 💰",
+    "image": "./images/img129.jpg",
+    "stream": "1fMmlMH3",
+    "offer_id": 37,
+    "features": [
+      "Namlikni chuqur ta’minlaydi – Panthenol va Niacinamide 10,000 ppm tarkibi bilan.",
+      "Teringizni tinchlantiradi va tiklaydi – Opuntia Ficus Indica Stem Extract yordamida.",
+      "Har qanday teri turiga mos – sun’iy hidlarsiz, allergiyasiz.",
+      "Qizarish va tirnashishni kamaytiradi – ayniqsa sezgir teri uchun ideal.",
+      "Yoshartiruvchi ta’sir – hujayralarni tiklashga yordam beradi.",
+      "💡 Foydalanish usuli: Toza teriga kuniga 2 marta yupqa qatlam qilib surting.",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
   }
 }
