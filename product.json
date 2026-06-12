@@ -245,5 +245,24 @@
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
+  },
+  "mahsulot14": {
+    "name": "Dr.Althea 345 Relief Mist Spray",
+    "short": "🌿 Teringizga bir zumda tetiklik va namlik baxsh eting!",
+    "description": "",
+    "price": "99.000 so’m 💰",
+    "image": "./images/img131.jpg",
+    "stream": "sNK2g05L",
+    "offer_id": 120,
+    "features": [
+      "✔️ Terini tinchlantiradi va tiklanishiga yordam beradi",
+      "✔️ Chuqur namlantiradi, quruqlik hissini kamaytiradi",
+      "✔️ Teri himoya qatlamini mustahkamlaydi",
+      "✔️ Kundalik foydalanish uchun mos",
+      "💦 Kun davomida yuzingizni yangilab, teringizni sog‘lom va parvarishlangan holatda saqlang.",
+      "📦 Hajmi: 100 ml",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
   }
 }
