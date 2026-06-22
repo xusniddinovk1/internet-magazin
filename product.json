@@ -266,5 +266,55 @@
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
+  },
+  "mahsulot15": {
+    "name": "Wifi Kamera",
+    "short": "🔐 Uyingiz va biznesingiz xavfsizligi endi yanada oson!",
+    "description": "📹 360° Wi-Fi kamera har bir burchakni to‘liq nazorat qiladi.",
+    "price": "99.000 so’m 💰",
+    "image": "./images/img140.jpg",
+    "stream": "sNK2yITNZesRg05L",
+    "offer_id": 141,
+    "features": [
+      "📱 Harakatni aniqlaganda darhol telefoningizga xabar yuboradi.",
+      "🌙 Tungi ko‘rish va ikki tomonlama aloqa funksiyasi bilan istalgan vaqtda yaqinlaringiz bilan bog‘laning.",
+      "💡 Oddiy lampochka patronga o‘rnatiladi va iOS hamda Android qurilmalari bilan ishlaydi.",
+      "✅ Xavfsizlikni bugundan boshlang!",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
+  },
+  "mahsulot16": {
+    "name": "Atirlar to’plami",
+    "short": "✨ 5 ta mashhur premium atir endi bitta to‘plamda!",
+    "description": "",
+    "price": "75.000 so’m 💰",
+    "image": "./images/img141.jpg",
+    "stream": "7ZFouG2H",
+    "offer_id": 18,
+    "features": [
+      "🌸 Har bir hid o‘ziga xos kayfiyat va unutilmas taassurot ulashadi.",
+      "🎁 Yaqinlaringiz uchun ajoyib sovg‘a, o‘zingiz uchun esa mukammal tanlov.",
+      "👜 Qulay mini format tufayli atirlarni doimo o‘zingiz bilan olib yuring.",
+      "💎 Sifat, nafislik va hashamatni bir to‘plamda his qiling!",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
+  },
+  "mahsulot17": {
+    "name": "BMW Hamelyon quyoshdan himoyalovchi ko‘zoynak",
+    "short": "Zamonaviy uslub va premium himoya birlashgan 🕶️✨",
+    "description": "Quyosh nurida rang o‘zgaradigan “chameleon” linza sizga har doim ideal ko‘rish beradi 🌞🔄",
+    "price": "79.000 so’m 💰",
+    "image": "./images/img142.jpg",
+    "stream": "t5rmBfIb",
+    "offer_id": 12,
+    "features": [
+      "Ko‘zlarni zararli UV nurlardan to‘liq himoya qiladi va komfortni oshiradi ☀️🛡️",
+      "BMW uslubidagi dizayn sizning imidjingizni yanada kuchli va premium ko‘rsatadi 🚗🔥",
+      "Har kunlik foydalanish va avtomobil haydash uchun eng zo‘r tanlov 💼🖤",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
   }
 }
