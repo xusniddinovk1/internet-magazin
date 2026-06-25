@@ -316,5 +316,22 @@
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
+  },
+  "mahsulot18": {
+    "name": "Premium FM transmitter",
+    "short": "🚗 Mashinangizda musiqa va qo‘ng‘iroqlar endi yanada qulay — Premium FM Transmitter bilan simsiz ulanishdan zavqlaning!",
+    "description": "",
+    "price": "89.000 so’m 💰",
+    "image": "./images/img150.jpg",
+    "stream": "sN3E9DSR",
+    "offer_id": 132,
+    "features": [
+      "⚡️ Ikki USB + Type-C port orqali telefoningizni bir vaqtning o‘zida tez quvvatlang.",
+      "🎵 Toza va tiniq ovoz bilan sevimli musiqalaringizni yo‘lda ham maroq bilan tinglang.",
+      "📞 Qo‘lingiz rulda qoladi — hands-free qo‘ng‘iroq funksiyasi xavfsiz haydashga yordam beradi.",
+      "🔥 Zamonaviy RGB LED dizayn saloningizga premium va chiroyli ko‘rinish bag‘ishlaydi!",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
   }
 }
