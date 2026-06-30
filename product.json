@@ -337,9 +337,11 @@
   "mahsulot19": {
     "name": "Sony Magnitafon",
     "short": "🎶 Sony magnitafon bilan mashinangizda har bir safar mini konsertga aylanadi — kuchli bass va tiniq ovoz kafolat!",
-    "description": "",
+    "description": "",  
     "price": "129.000 so’m 💰",
     "image": "./images/img151.jpg",
+    "steam": "4NRxfy1I",
+    "offer_id": 143
     "features": [
       "🔊 5x55W quvvatli tovush orqali sevimli musiqalaringizni yanada jonli va sifatli tinglang.",
       "📻 USB, AUX, SD va FM Radio qo‘llab-quvvatlashi bilan barcha formatlar siz uchun qulay.",
