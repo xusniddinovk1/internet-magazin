@@ -341,11 +341,27 @@
     "price": "129.000 so’m 💰",
     "image": "./images/img151.jpg",
     "steam": "4NRxfy1I",
-    "offer_id": 143
+    "offer_id": 143,
     "features": [
       "🔊 5x55W quvvatli tovush orqali sevimli musiqalaringizni yanada jonli va sifatli tinglang.",
       "📻 USB, AUX, SD va FM Radio qo‘llab-quvvatlashi bilan barcha formatlar siz uchun qulay.",
       "⚡️ Tezkor ishlashi va zamonaviy dizayni bilan saloningizga premium ko‘rinish bag‘ishlaydi.",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
+  },
+  "mahsulot20": {
+    "name": "Lampali ventilyator",
+    "short": "💨 Issiq kunlarda salqinlik, har faslda qulaylik! Bu lampa-ventilyator xonangizga bir vaqtning o‘zida yorug‘lik va salqin havo beradi.",
+    "description": "💡 Yorqin LED yoritish — elektrni tejaydi va xonani bir tekis, kuchli yoritadi.",  
+    "price": "129.000 so’m 💰",
+    "image": "./images/img60.jpg",
+    "steam": "yFJtvjZh",
+    "offer_id": 145,
+    "features": [
+      "🎛️ Pult orqali boshqaruv — tezlik, yorug‘lik va rejimlarni o‘tirgan joyingizdan bemalol sozlang.",
+      "🔇 Sokin ishlash texnologiyasi — shovqinsiz ishlaydi, uyqu va dam olishga xalaqit bermaydi.",
+      "✅ Oson o‘rnatiladi, zamonaviy dizayn — har qanday uy yoki ofis interyeriga mos tushadi.",
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
