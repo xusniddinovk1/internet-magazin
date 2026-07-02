@@ -340,7 +340,7 @@
     "description": "",  
     "price": "129.000 so’m 💰",
     "image": "./images/img151.jpg",
-    "steam": "hzTlgUA4",
+    "stream": "hzTlgUA4",
     "offer_id": 143,
     "features": [
       "🔊 5x55W quvvatli tovush orqali sevimli musiqalaringizni yanada jonli va sifatli tinglang.",
@@ -356,29 +356,12 @@
     "description": "💡 Yorqin LED yoritish — elektrni tejaydi va xonani bir tekis, kuchli yoritadi.",  
     "price": "129.000 so’m 💰",
     "image": "./images/img60.jpg",
-    "steam": "yFJtvjZh",
+    "stream": "yFJtvjZh",
     "offer_id": 145,
     "features": [
       "🎛️ Pult orqali boshqaruv — tezlik, yorug‘lik va rejimlarni o‘tirgan joyingizdan bemalol sozlang.",
       "🔇 Sokin ishlash texnologiyasi — shovqinsiz ishlaydi, uyqu va dam olishga xalaqit bermaydi.",
       "✅ Oson o‘rnatiladi, zamonaviy dizayn — har qanday uy yoki ofis interyeriga mos tushadi.",
-      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
-      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
-    ]
-  },
-    "mahsulot21": {
-    "name": "Vetmedikal",
-    "short": "Vetmedikal",
-    "description": "",
-    "price": "75.000 so’m 💰",
-    "image": "./images/20. Карандаши.jpg",
-    "stream": "OvwoQQRh",
-    "offer_id": 145,
-    "features": [
-      "🌸 Har bir hid o‘ziga xos kayfiyat va unutilmas taassurot ulashadi.",
-      "🎁 Yaqinlaringiz uchun ajoyib sovg‘a, o‘zingiz uchun esa mukammal tanlov.",
-      "👜 Qulay mini format tufayli atirlarni doimo o‘zingiz bilan olib yuring.",
-      "💎 Sifat, nafislik va hashamatni bir to‘plamda his qiling!",
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
