@@ -337,7 +337,7 @@
   "mahsulot19": {
     "name": "Sony Magnitafon",
     "short": "🎶 Sony magnitafon bilan mashinangizda har bir safar mini konsertga aylanadi — kuchli bass va tiniq ovoz kafolat!",
-    "description": "",  
+    "description": "",
     "price": "129.000 so’m 💰",
     "image": "./images/img151.jpg",
     "stream": "hzTlgUA4",
@@ -353,7 +353,7 @@
   "mahsulot20": {
     "name": "Lampali ventilyator",
     "short": "💨 Issiq kunlarda salqinlik, har faslda qulaylik! Bu lampa-ventilyator xonangizga bir vaqtning o‘zida yorug‘lik va salqin havo beradi.",
-    "description": "💡 Yorqin LED yoritish — elektrni tejaydi va xonani bir tekis, kuchli yoritadi.",  
+    "description": "💡 Yorqin LED yoritish — elektrni tejaydi va xonani bir tekis, kuchli yoritadi.",
     "price": "129.000 so’m 💰",
     "image": "./images/img60.jpg",
     "stream": "yFJtvjZh",
@@ -362,6 +362,39 @@
       "🎛️ Pult orqali boshqaruv — tezlik, yorug‘lik va rejimlarni o‘tirgan joyingizdan bemalol sozlang.",
       "🔇 Sokin ishlash texnologiyasi — shovqinsiz ishlaydi, uyqu va dam olishga xalaqit bermaydi.",
       "✅ Oson o‘rnatiladi, zamonaviy dizayn — har qanday uy yoki ofis interyeriga mos tushadi.",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
+  },
+  "mahsulot21": {
+    "name": "377 SPF 50+ Quyoshdan Himoya Spreyi",
+    "short": "",
+    "description": "🌞 SPF 50+ PA+++ kuchli quyosh nurlaridan himoya qiladi.",
+    "price": "99.000 so’m 💰",
+    "image": "./images/img200.jpg",
+    "stream": "link: MavKFoaC",
+    "offer_id": 149,
+    "features": [
+      "🏖️ Plyaj, sayohat va issiq kunlar uchun ajoyib tanlov.",
+      "✨ Oqartirish effektiga ega bo‘lib, teriga tabiiy yorqinlik beradi.",
+      "🌿 Kundalik foydalanish uchun mos.",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
+  },
+  "mahsulot22": {
+    "name": "7 Days Nail",
+    "short": "",
+    "description": "🌿 Tirnoq zamburug’iga qarshi samarali parvarish – sog’lom va chiroyli tirnoqlar sari ilk qadam! 💚",
+    "price": "69.000 so’m 💰",
+    "image": "./images/img201.jpg",
+    "stream": "link: KINeMmm2",
+    "offer_id": 122,
+    "features": [
+      "✨ Tea Tree va Ginger ekstrakti tirnoqni oziqlantirib, mustahkamlashga yordam beradi. 🌱",
+      "⚡️ Muntazam qo’llang va tirnoqlaringizdagi ijobiy o’zgarishlarni qisqa vaqt ichida sezishni boshlang! 💅",
+      "🛡️ Kundalik parvarish uchun qulay, foydalanishi oson va butun oila uchun mos. 👌",
+      "📦 Hoziroq buyurtma bering va sog’lom, toza tirnoqlarga ega bo’ling! 🚚🎁",
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
