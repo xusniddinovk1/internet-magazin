@@ -415,5 +415,22 @@
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
+  },
+  "mahsulot24": {
+    "name": "O’yinchoq rulcha",
+    "short": "",
+    "description": "🚗 Farzandingizni uzoq yo‘lda zeriktirmaydigan eng qiziqarli rul o‘yinchog‘i! 🎉",
+    "price": "79.000 so’m 💰",
+    "image": "./images/img203.jpg",
+    "stream": "link: 2IGIHSWF",
+    "offer_id": 142,
+    "features": [
+      "🎵 Musiqa, signal va yorug‘lik effektlari bilan har bir sayohatni yanada maroqli qiladi. ✨",
+      "🧲 Kuchli vakuumli mahkamlagichi tufayli avtomobil oynasi yoki paneliga oson va ishonchli o‘rnatiladi. 💪",
+      "👶 Bolaning tasavvurini, diqqatini va qo‘l harakatlarini rivojlantirishga yordam beradi. 🌈",
+      "🎁 Hoziroq buyurtma bering va farzandingizga quvonch ulashadigan ajoyib sovg‘ani qo‘lga kiriting! 🚚💝",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
   }
 }

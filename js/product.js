@@ -1,7 +1,3 @@
-const BOT_TOKEN = "8828690268:AAGwq2Hs4eyWG50X2JgG0XYf4eb8nec1Mng";
-const CHAT_ID = "6108249367";
-// =============================================
-
 let currentProduct = null;
 
 async function loadProduct() {
