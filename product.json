@@ -398,5 +398,22 @@
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
+  },
+  "mahsulot23": {
+    "name": "Small Duck 🐤",
+    "short": "",
+    "description": "🦆 Bolajoningiz uchun quvonch ulashadigan eng qiziqarli o‘yinchoq – Small Duck bilan har bir kun maroqli! 🎉",
+    "price": "69.000 so’m 💰",
+    "image": "./images/img202.jpg",
+    "stream": "link: jF5q9Hxk",
+    "offer_id": 151,
+    "features": [
+      "🎵 Musiqa va harakatlanuvchi o‘rdakchalar bolalarning diqqatini tortib, uzoq vaqt zavq bilan o‘ynashiga yordam beradi. 💛",
+      "🌈 Yorqin ranglar va xavfsiz materialdan tayyorlangani sababli farzandingiz bemalol o‘ynashi mumkin. 👶",
+      "🧠 O‘yin davomida bolaning diqqatini, kuzatuvchanligini va qo‘l-harakat koordinatsiyasini rivojlantiradi. ✨",
+      "🎁 Hoziroq buyurtma bering va farzandingizga unutilmas quvonch ulashing! 🚚💝",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
   }
 }
