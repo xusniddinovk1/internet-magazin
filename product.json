@@ -45,20 +45,6 @@
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
   },
-  "mahsulot2": {
-    "name": "❄️Super Mini universal Konditsioner",
-    "short": "☀️ Yozning qaynoq haroratiga chiday olmayapsizmi ?  ",
-    "description": "- Mini Konditsioner sizga yordamga keladi! ❄️",
-    "price": "89.000 so’m 💰",
-    "image": "./images/image4.png",
-    "stream": "10TySoIB",
-    "offer_id": 101,
-    "features": [
-      "✅ 100% kafolatga ega!",
-      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
-      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
-    ]
-  },
   "mahsulot3": {
     "name": "360 MAGNITLI HOLDER orginal 📲",
     "short": "🚘 Moshina uchun ajoyib holdirimiza sotuvga yetib keldi 🚘",
@@ -69,18 +55,6 @@
     "offer_id": 106,
     "features": [
       "Eng muhimi orginal 💯",
-      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
-      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
-    ]
-  },
-  "mahsulot4": {
-    "name": "Magic Brush",
-    "short": "Idish tozalaydigan shutka elektron Tozalashning 'sehrli' usuli topildi! 🎁 ",
-    "description": "Oddiy cho‘tkalar bilan vaqt yo‘qotishni bas qiling. ❌. Magic Brush bilan birga  ✅ Kafel kirlari 1 daqiqada yo‘qoladi. ✅ Gaz plitasi yangidek bo‘ladi. ✅ Vannadagi dog‘lar endi muammo emas. To‘plamda: Cho‘tka, 5 xil nasadka va USB kabel. 🎁 ",
-    "price": "99.000 so’m 💰",
-    "image": "./images/image6.png",
-    "features": [
-      "Mahsulot soni cheklangan 📲",
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
@@ -97,22 +71,6 @@
       "Yuqori sifatli material ✅",
       "Hashamatli dizayn ✅",
       "Ko‘zlaringizni himoya qiladi ✅",
-      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
-      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
-    ]
-  },
-  "mahsulot6": {
-    "name": "Showery Eco 💦",
-    "short": "Parraklarga ega dush, jonning rohati! 🩷",
-    "description": "🚿✨ Oddiy dushni unuting — endi har bir tomchi siz va oilangiz uchun g’amxo’rlik qiladi! 💙.💧 Showery Eco suv bosimini kuchaytirib, dushdan haqiqiy rohat olishingizga yordam beradi.",
-    "price": "69.000 so’m 💰",
-    "image": "./images/img123.jpg",
-    "stream": "Ir2TSfpr",
-    "offer_id": 38,
-    "features": [
-      "🛡️ Filtr tizimi suvdagi ayrim aralashmalarni kamaytirishga xizmat qiladi va yanada yoqimli foydalanish tajribasini taqdim etadi.",
-      "🎁 Bugungi aksiyani o’tkazib yubormang — chegirma sizni kutmoqda!",
-      "📲 Hoziroq buyurtma bering va dushingizni yangi darajaga olib chiqing!",
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
@@ -148,83 +106,6 @@
       "✅ Eshik ochilganda yerga Gerb logosi tasvirini tushirib ko‘rsatadi",
       "✅ Barcha turdagi mashinalarga mos keladi",
       "✅ Hozirda Gerb logosi tushiradigan modeli mavjud",
-      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
-      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
-    ]
-  },
-  "mahsulot9": {
-    "name": "Meva sharbat chiqargich (Juicer) 🍊🍎",
-    "short": "Uyda sog‘lom va tabiiy sharbat tayyorlash endi juda oson!",
-    "description": "",
-    "price": "99.000 so’m 💰",
-    "image": "./images/img126.jpg",
-    "stream": "x0PelNyS",
-    "offer_id": 130,
-    "features": [
-      "✅ Mevalardan 100% tabiiy sharbat chiqarib beradi",
-      "✅ Apelsin, olma, sabzi va boshqa mevalar uchun mos",
-      "✅ Tez va qulay ishlaydi — vaqtni tejaydi",
-      "✅ Tozalash juda oson, qismlarga ajraladi",
-      "✅ Har kuni vitaminlarga boy ichimlik tayyorlash imkoniyati",
-      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
-      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
-    ]
-  },
-  "mahsulot10": {
-    "name": "Manikyur va pedekyur qiladigan tirnoq nabor",
-    "short": "Mukammal manikyur va pedikyur endi oson!",
-    "description": "✨ 16 ta funksiyali professional parvarish to‘plami bilan qo‘l va oyoq tirnoqlaringizni har doim ideal holatda saqlang.",
-    "price": "79.000 so’m 💰",
-    "image": "./images/img127.jpg",
-    "stream": "ylzKGsC9",
-    "offer_id": 131,
-    "features": [
-      "✅ Tirnoq kesgichlar (3 xil o‘lcham)",
-      "✅ Qaychi va pinset",
-      "✅ Quloq va yuz parvarishi uchun asboblar",
-      "✅ Tirnoq chetlarini tozalash vositalari",
-      "✅ Mustahkam va ixcham g‘ilof",
-      "🎁 Uyda ham, safarda ham foydalanish uchun qulay.",
-      "🎯 Erkaklar va ayollar uchun mos.",
-      "💎 Sifatli zanglamaydigan po‘latdan tayyorlangan.",
-      "🔥 Chegirmadagi narxda buyurtma berishga shoshiling!",
-      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
-      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
-    ]
-  },
-  "mahsulot11": {
-    "name": "Diskali soat",
-    "short": "",
-    "description": "",
-    "price": "99.000 so’m 💰",
-    "image": "./images/img128.jpg",
-    "stream": "j9UPHoyJ",
-    "offer_id": 20,
-    "features": [
-      "Batareyada ishlaydi 🔋",
-      "Tasma uzunligi 27 ⛓️",
-      "Erkaklar uchun 🙎‍♂️",
-      "Batareyaning ishlash muddati 12 oy 📅",
-      "Korpusning diametri 40 mm",
-      "Turi maftunkor, zamonaviy, hashamatli qopqoq, g'ildirak diskali soat 🎁",
-      "Tovarining kelib chiqishi: Xitoy",
-      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
-      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
-    ]
-  },
-  "mahsulot12": {
-    "name": "Feramon original atir",
-    "short": "10 ml feramon atiri — kichkina hajm, lekin katta ta’sir! ✨",
-    "description": "O‘zingizga ishonchni oshiradi, atrofdagilar e’tiborini bir zumda sizga qaratadi.",
-    "price": "69.000 so’m 💰",
-    "image": "./images/img129.jpg",
-    "stream": "n6c7sx4d",
-    "offer_id": 92,
-    "features": [
-      "💎 Har tomchi — joziba va ishonch",
-      "💎 Har lahza — kuchli taassurot",
-      "💎 Har joyda — siz markazdasiz",
-      "👉 Endi oddiy emas, o‘ziga tortuvchi bo‘ling! ✨",
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
@@ -317,23 +198,6 @@
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
   },
-  "mahsulot18": {
-    "name": "Premium FM transmitter",
-    "short": "🚗 Mashinangizda musiqa va qo‘ng‘iroqlar endi yanada qulay — Premium FM Transmitter bilan simsiz ulanishdan zavqlaning!",
-    "description": "",
-    "price": "89.000 so’m 💰",
-    "image": "./images/img150.jpg",
-    "stream": "sN3E9DSR",
-    "offer_id": 132,
-    "features": [
-      "⚡️ Ikki USB + Type-C port orqali telefoningizni bir vaqtning o‘zida tez quvvatlang.",
-      "🎵 Toza va tiniq ovoz bilan sevimli musiqalaringizni yo‘lda ham maroq bilan tinglang.",
-      "📞 Qo‘lingiz rulda qoladi — hands-free qo‘ng‘iroq funksiyasi xavfsiz haydashga yordam beradi.",
-      "🔥 Zamonaviy RGB LED dizayn saloningizga premium va chiroyli ko‘rinish bag‘ishlaydi!",
-      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
-      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
-    ]
-  },
   "mahsulot19": {
     "name": "Sony Magnitafon",
     "short": "🎶 Sony magnitafon bilan mashinangizda har bir safar mini konsertga aylanadi — kuchli bass va tiniq ovoz kafolat!",
@@ -362,22 +226,6 @@
       "🎛️ Pult orqali boshqaruv — tezlik, yorug‘lik va rejimlarni o‘tirgan joyingizdan bemalol sozlang.",
       "🔇 Sokin ishlash texnologiyasi — shovqinsiz ishlaydi, uyqu va dam olishga xalaqit bermaydi.",
       "✅ Oson o‘rnatiladi, zamonaviy dizayn — har qanday uy yoki ofis interyeriga mos tushadi.",
-      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
-      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
-    ]
-  },
-  "mahsulot21": {
-    "name": "377 SPF 50+ Quyoshdan Himoya Spreyi",
-    "short": "",
-    "description": "🌞 SPF 50+ PA+++ kuchli quyosh nurlaridan himoya qiladi.",
-    "price": "99.000 so’m 💰",
-    "image": "./images/img200.jpg",
-    "stream": "MavKFoaC",
-    "offer_id": 149,
-    "features": [
-      "🏖️ Plyaj, sayohat va issiq kunlar uchun ajoyib tanlov.",
-      "✨ Oqartirish effektiga ega bo‘lib, teriga tabiiy yorqinlik beradi.",
-      "🌿 Kundalik foydalanish uchun mos.",
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
