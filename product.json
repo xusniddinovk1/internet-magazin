@@ -297,5 +297,22 @@
       "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
       "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
     ]
+  },
+  "mahsulot26": {
+    "name": "Zerofit",
+    "short": "",
+    "description": "🌿 100% tabiiy tarkib bilan organizmni qo’llab-quvvatlash va kundalik tetiklikni his eting.",
+    "price": "79.000 so’m 💰",
+    "image": "./images/img205.jpg",
+    "stream": "eF5HLPOp",
+    "offer_id": 144,
+    "features": [
+      "⚡️ Energiya va faollikni oshirishga yordam beruvchi qulay ichimlik kukuni — har kuningizni yanada sermahsul o’tkazing.",
+      "💚 Sog’lom turmush tarzini qo’llab-quvvatlash uchun mazali va foydalanishga qulay tanlov.",
+      "✨ Har kuni muntazam iste’mol qilish orqali o’zingizni yanada yengil va tetik his etishga yordam beradi.*",
+      "🚚 Hoziroq buyurtma bering! Tezkor yetkazib berish va sifatli mahsulot sizni kutmoqda.",
+      "✅ To'lovni mahsulotni qo'lingizga olganda qilasiz",
+      "🚚 O‘zbekiston bo‘ylab yetkazib beriladi"
+    ]
   }
 }
